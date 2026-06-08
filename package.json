@@ -1,0 +1,27 @@
+{
+  "name": "codex-bolt-refinement",
+  "version": "1.0.0",
+  "description": "CLI tool for generating Next.js components via Codex + Bolt styling + refinement",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "dev": "node --watch cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codex",
+    "bolt",
+    "nextjs",
+    "ui-generation",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {}
+}
